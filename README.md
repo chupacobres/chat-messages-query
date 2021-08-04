@@ -1,7 +1,8 @@
 # Chat-Message-Helper
 
 This plugin listens to a Chat in wrapup status and runs a function to query the Chat history using Programmable Chat's Message Resource API. The data returned is an Object with the full Chat conversation history. 
-Create a public Function and Copy paste the code in Funcions/get_conversation.js
+Create a public Function and copy paste the code in Funcions/get_conversation.js
+Replace the Chat Service Sid with your Sid
 
 
 # Your custom Twilio Flex Plugin
