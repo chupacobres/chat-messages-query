@@ -11,8 +11,8 @@ exports.handler = async function (context, event, callback) {
         'Access-Control-Allow-Methods': 'GET,POST,OPTIONS',
         'Access-Control-Allow-Headers': 'Content-Type',
     };
-
-    client.chat.services('IS1121f28737224354acee37e4b8495a18')
+    //replace with your Chat Instance Sid
+    client.chat.services('ISXXXXXXXXXXXXXXXX')
         .channels(channelSid)
         .messages
         .list({ limit: 20 })
